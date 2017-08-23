@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginTop="10sp"
+    android:layout_marginLeft="80sp"
+    android:layout_marginRight="80sp"
+    tools:context="com.example.android1.rewardedvideoad.HomeActivity">
+
+    <Button
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:text="Video ADs"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:id="@+id/videoadd"
+        android:onClick="videoadd"
+        />
+    <Button
+        android:layout_below="@+id/videoadd"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:text="Native Express Ads"
+        android:id="@+id/nativeexpress"
+        android:onClick="nativeexpress"
+        />
+    <Button
+        android:layout_below="@+id/nativeexpress"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:textAllCaps="false"
+        android:fontFamily="sans-serif"
+        android:text="Native Advance Ads"
+        android:id="@+id/nativeadvance"
+        android:onClick="nativeadvance"
+        />
+</RelativeLayout>

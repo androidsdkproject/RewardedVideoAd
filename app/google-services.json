@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "961633040188",
+    "firebase_url": "https://andyproject-62886.firebaseio.com",
+    "project_id": "andyproject-62886",
+    "storage_bucket": "andyproject-62886.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:961633040188:android:2894e7340e0f8f0b",
+        "android_client_info": {
+          "package_name": "com.example.android1.rewardedvideoad"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "961633040188-kssprifa2pfgtu5jfcut8o1mo4f6t024.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHJDQVhThfLWoF3B73o7E4ECzXRAqO9hI"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
